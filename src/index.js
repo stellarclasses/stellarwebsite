@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 import "assets/css/nucleo-icons.css";
 import "assets/scss/blk-design-system-react.scss?v=1.0.0";
@@ -14,12 +14,12 @@ import GalleryPage from "views/main/Gallery.jsx";
 import HomePage from "views/main/HomePage.jsx";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <Switch>
       <Route path="/about-us" render={props => <ProfilePage {...props} />} />
       <Route path="/gallery" render={props => <GalleryPage {...props} />} />
       <Route path="/" render={props => <HomePage {...props} />} />
     </Switch>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById("root")
 );
