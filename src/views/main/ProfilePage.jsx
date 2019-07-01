@@ -96,7 +96,7 @@ class ProfilePage extends React.Component {
                   <h1 className="profile-title text-left">About Us</h1>
                   <h5 className="text-on-back">01</h5>
                   <p className="profile-description">
-                    Stellar is a English Speaking School for all age groups. We
+                    Stellar is an English Speaking School for all age groups. We
                     also offer crash courses and coaching classes for
                     Mathematics and Science to make students confident and
                     effulgent in academics.
@@ -199,8 +199,8 @@ class ProfilePage extends React.Component {
                     Faridabad
                     <br />
                     Haryana,121001
-                    <br />
-                    Near Mothers Pride School
+                    {/* <br />
+                    Near Mothers Pride School */}
                   </p>
                   <div className="btn-wrapper pt-3">
                     <Button

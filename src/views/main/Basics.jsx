@@ -11,11 +11,14 @@ class Basics extends React.Component {
         <Container>
           <Row>
             <Col md="12">
-              <h2>Who are we?</h2>
+              <h2>
+                "Empower your child with good communication skills and concept
+                clarity"
+              </h2>
               <p>
                 Stellar is a Personality School and Coaching Academy. Here we
                 offer English Speaking Classes, Personality Development
-                Programs, Anchoring and Compering sokills, Leadership skills and
+                Programs, Anchoring and Compering skills, Leadership skills and
                 Coaching Classes to instill confidence among the students and to
                 make them effulgent in academics. We give them ample exposure to
                 stage, microphone and camera and shun their hesitation. We have
@@ -38,19 +41,15 @@ class Basics extends React.Component {
               />
             </Col>
             <Col md="6">
-              <h3 className="title">Why Stellar?</h3>
+              <h3 className="title">Why Stellar!!</h3>
               {/* <p className="category">Pick your style</p> */}
               <p>
                 <ul>
                   <li>Effective speaking is the motto</li>
-                  <li>
-                    Time to Time Interaction with parents Qualified
-                    Professionals
-                  </li>
-                  <li>
-                    For Science,Maths & Grammar Classes Use of Audio & Video
-                    Modules
-                  </li>
+                  <li>Time to Time Interaction with parents</li>
+                  <li>Qualified Professionals</li>
+                  <li>For Science,Maths & Grammar Classes</li>
+                  <li>Use of Audio & Video Modules</li>
                   <li>
                     Special emphasis on Body Language Correction and Etiquettes
                   </li>

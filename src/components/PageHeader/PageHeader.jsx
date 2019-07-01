@@ -20,11 +20,11 @@ class PageHeader extends React.Component {
             <h1 className="Logo" style={{ fontSize: "90px" }}>
               Stellar
             </h1>
-            <h3>Personality School & Coaching Centere</h3>
-            <h4 className="d-none d-sm-block">
+            <h3>Personality School & Coaching Centre</h3>
+            {/* <h4 className="d-none d-sm-block">
               Empower your child with good communication skills and concept
               clarity.
-            </h4>
+            </h4> */}
           </div>
         </Container>
       </div>

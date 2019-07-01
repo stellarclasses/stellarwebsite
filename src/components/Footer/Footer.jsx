@@ -80,8 +80,6 @@ class Footer extends React.Component {
                 <br />
                 Haryana,121001
                 <br />
-                Near Mothers Pride School
-                <br />
                 Call us @ : 9899969644, 9650088055
               </h6>
             </Col>
