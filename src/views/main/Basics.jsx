@@ -22,7 +22,7 @@ class Basics extends React.Component {
                 Coaching Classes to instill confidence among the students and to
                 make them effulgent in academics. We give them ample exposure to
                 stage, microphone and camera and shun their hesitation. We have
-                a language laboratory to show audio- video modules. Special
+                a language laboratory to show audio-video modules. Special
                 attention is given to positive body language, intonation and
                 stress.
               </p>
