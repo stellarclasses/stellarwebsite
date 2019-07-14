@@ -9,27 +9,69 @@ import Footer from "components/Footer/Footer.jsx";
 
 const carouselItems = [
   {
-    src: require("assets/img/gallery/1.jpeg"),
+    src: require("assets/img/gallery/3.jpeg"),
     altText: "Slide 1",
     caption: " "
   },
-  //   {
-  //     src: require("assets/img/gallery/2.jpeg"),
-  //     altText: "Slide 2",
-  //     caption: "Kids "
-  //   },
   {
-    src: require("assets/img/gallery/3.jpeg"),
+    src: require("assets/img/gallery/12.jpeg"),
     altText: "Slide 3",
     caption: " "
   },
   {
-    src: require("assets/img/gallery/4.jpeg"),
+    src: require("assets/img/gallery/14.jpeg"),
     altText: "Slide 4",
     caption: " "
   },
   {
+    src: require("assets/img/gallery/10.jpeg"),
+    altText: "Slide 5",
+    caption: " "
+  },
+  {
+    src: require("assets/img/gallery/11.jpeg"),
+    altText: "Slide 6",
+    caption: " "
+  },
+  {
+    src: require("assets/img/gallery/13.jpeg"),
+    altText: "Slide 7",
+    caption: " "
+  },
+  {
+    src: require("assets/img/gallery/9.jpeg"),
+    altText: "Slide 8",
+    caption: " "
+  },
+  {
     src: require("assets/img/gallery/5.jpeg"),
+    altText: "Slide 9",
+    caption: " "
+  },
+  {
+    src: require("assets/img/gallery/4.jpeg"),
+    altText: "Slide 10",
+    caption: " "
+  }
+];
+const carouselItems2 = [
+  {
+    src: require("assets/img/gallery/16.jpeg"),
+    altText: "Slide 1",
+    caption: " "
+  },
+  {
+    src: require("assets/img/gallery/18.jpeg"),
+    altText: "Slide 3",
+    caption: " "
+  },
+  {
+    src: require("assets/img/gallery/15.jpeg"),
+    altText: "Slide 4",
+    caption: " "
+  },
+  {
+    src: require("assets/img/gallery/2.jpeg"),
     altText: "Slide 5",
     caption: " "
   },
@@ -39,8 +81,23 @@ const carouselItems = [
     caption: " "
   },
   {
-    src: require("assets/img/gallery/7.jpeg"),
+    src: require("assets/img/gallery/13.jpeg"),
     altText: "Slide 7",
+    caption: " "
+  },
+  {
+    src: require("assets/img/gallery/9.jpeg"),
+    altText: "Slide 8",
+    caption: " "
+  },
+  {
+    src: require("assets/img/gallery/5.jpeg"),
+    altText: "Slide 9",
+    caption: " "
+  },
+  {
+    src: require("assets/img/gallery/4.jpeg"),
+    altText: "Slide 10",
     caption: " "
   }
 ];
@@ -54,25 +111,6 @@ class GalleryPage extends React.Component {
       tabs: 1
     };
   }
-  // componentDidMount() {
-  //   if (navigator.platform.indexOf("Win") > -1) {
-  //     document.documentElement.className += " perfect-scrollbar-on";
-  //     document.documentElement.classList.remove("perfect-scrollbar-off");
-  //     let tables = document.querySelectorAll(".table-responsive");
-  //     for (let i = 0; i < tables.length; i++) {
-  //       ps = new PerfectScrollbar(tables[i]);
-  //     }
-  //   }
-  //   document.body.classList.toggle("profile-page");
-  // }
-  // componentWillUnmount() {
-  //   if (navigator.platform.indexOf("Win") > -1) {
-  //     // ps.destroy();
-  //     document.documentElement.className += " perfect-scrollbar-off";
-  //     document.documentElement.classList.remove("perfect-scrollbar-on");
-  //   }
-  //   document.body.classList.toggle("profile-page");
-  // }
   toggleTabs = (e, stateName, index) => {
     e.preventDefault();
     this.setState({
@@ -101,61 +139,32 @@ class GalleryPage extends React.Component {
               <p>Shining kids of Stellar</p>
               <br />
               <br />
+              <UncontrolledCarousel items={carouselItems2} />
+              <br />
+              <br />
+              More from Stellar
               <UncontrolledCarousel items={carouselItems} />
+              <br />
+              <br />
+              <h1>Videos</h1>
+              <div className="embed-responsive embed-responsive-16by9">
+                <iframe
+                  className="embed-responsive-item"
+                  src="https://www.youtube.com/embed/DD8DaRNFLBE"
+                  allowFullScreen
+                  title="iframe"
+                />
+              </div>
+              <div className="embed-responsive embed-responsive-16by9">
+                <iframe
+                  className="embed-responsive-item"
+                  src="https://www.youtube.com/embed/JcJtFfj3xJ4"
+                  allowFullScreen
+                  title="iframe"
+                />
+              </div>
             </Container>
           </div>
-          {/* <div className="section">
-            <Container>
-              <Row className="justify-content-between">
-                <Col md="6">
-                  <Row className="justify-content-between align-items-center">
-                    <iframe
-                      title="iframe"
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d877.5824693112557!2d77.30134522914892!3d28.379102878841103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdc3d8be093ed%3A0x846df4033978554f!2s1C+5%2C+Bata+B+Colony%2C+New+Industrial+Twp+1%2C+New+Industrial+Town%2C+Faridabad%2C+Haryana+121001!5e0!3m2!1sen!2sin!4v1560511131527!5m2!1sen!2sin"
-                      width="600"
-                      height="450"
-                      frameborder="0"
-                      style={{ border: 0 }}
-                      allowfullscreen
-                    />
-                  </Row>
-                </Col>
-                <Col md="5">
-                  <h1 className="profile-title text-left">
-                    {" "}
-                    &nbsp;&nbsp;Location{" "}
-                  </h1>
-                  <h5 className="text-on-back">02</h5>
-                  <p className="profile-description text-left">
-                    1-C/5 NH, NIT-1
-                    <br />
-                    Faridabad
-                    <br />
-                    Haryana,121001
-                    <br />
-                    Near Mothers Pride School
-                  </p>
-                  <div className="btn-wrapper pt-3">
-                    <Button
-                      className="btn-simple"
-                      color="primary"
-                      href="https://www.google.com/maps?saddr=My+Location&daddr=28.379068, 77.301946"
-                      target="_blank"
-                    >
-                      <i className="tim-icons icon-square-pin" /> Get Directions
-                    </Button>
-                    <Button
-                      className="btn-simple"
-                      color="info"
-                      href="tel:09650088055"
-                    >
-                      <i className="tim-icons icon-badge" /> Call Us
-                    </Button>
-                  </div>
-                </Col>
-              </Row>
-            </Container>
-          </div> */}
 
           <Footer />
         </div>
