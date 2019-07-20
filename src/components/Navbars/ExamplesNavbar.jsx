@@ -147,6 +147,11 @@ class PagesNavbar extends React.Component {
                   Gallery
                 </NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink tag={Link} to="/videos">
+                  Videos
+                </NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
         </Container>
