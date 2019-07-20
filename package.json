@@ -41,6 +41,7 @@
     "reactstrap": "7.1.0"
   },
   "scripts": {
+    "ghBuild": "gh-pages -d build",
     "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
