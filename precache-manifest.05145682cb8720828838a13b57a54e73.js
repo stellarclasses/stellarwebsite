@@ -44,16 +44,16 @@ self.__precacheManifest = [
     "url": "/static/media/nucleo.b17a118e.ttf"
   },
   {
-    "revision": "6619b9792d7d108bb589b51bbd560278",
-    "url": "/static/media/square2.6619b979.png"
+    "revision": "23fa76237f0066f4ffd8f20e77449887",
+    "url": "/static/media/square3.23fa7623.png"
   },
   {
     "revision": "ca25707397fcc982d7dc1f82555f09a0",
     "url": "/static/media/square1.ca257073.png"
   },
   {
-    "revision": "23fa76237f0066f4ffd8f20e77449887",
-    "url": "/static/media/square3.23fa7623.png"
+    "revision": "6619b9792d7d108bb589b51bbd560278",
+    "url": "/static/media/square2.6619b979.png"
   },
   {
     "revision": "8fdf9ee20db40e5d1cf778bf99486cb7",
