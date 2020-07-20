@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 // import Logo from "assets/img/Stellar.jpg";
 
 // reactstrap components
-import { Container } from "reactstrap";
+import { Container } from 'reactstrap';
 
 class PageHeader extends React.Component {
   render() {
@@ -17,10 +17,10 @@ class PageHeader extends React.Component {
         <div className="squares square7" />
         <Container>
           <div className="content-center brand">
-            <h1 className="Logo" style={{ fontSize: "90px" }}>
+            <h1 className="Logo" style={{ fontSize: '90px' }}>
               Stellar
             </h1>
-            <h3>Personality School & Coaching Centre</h3>
+            <h3>Personality School & Grammar Classes</h3>
             {/* <h4 className="d-none d-sm-block">
               Empower your child with good communication skills and concept
               clarity.
