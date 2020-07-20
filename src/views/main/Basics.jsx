@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 
 // reactstrap components
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col } from 'reactstrap';
 
 class Basics extends React.Component {
   render() {
     return (
       <div className="section section-basic" id="basic-elements">
-        <img alt="..." className="path" src={require("assets/img/path1.png")} />
+        <img alt="..." className="path" src={require('assets/img/path1.png')} />
         <Container>
           <Row>
             <Col md="12">
@@ -27,13 +27,13 @@ class Basics extends React.Component {
                 stress.
               </p>
             </Col>
-            <Col md="12" style={{ textAlign: "center" }}>
+            <Col md="12" style={{ textAlign: 'center' }}>
               <iframe
                 title="video"
                 src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbhutani.sunaina%2Fvideos%2F297535424112532%2F&show_text=0&width=476"
                 width="476"
                 height="476"
-                style={{ border: "none", overflow: "hidden" }}
+                style={{ border: 'none', overflow: 'hidden' }}
                 scrolling="no"
                 frameBorder="0"
                 allowTransparency="true"
@@ -48,7 +48,6 @@ class Basics extends React.Component {
                   <li>Effective speaking is the motto</li>
                   <li>Time to Time Interaction with parents</li>
                   <li>Qualified Professionals</li>
-                  <li>For Science,Maths & Grammar Classes</li>
                   <li>Use of Audio & Video Modules</li>
                   <li>
                     Special emphasis on Body Language Correction and Etiquettes
@@ -61,11 +60,22 @@ class Basics extends React.Component {
               <h3 className="title">Coaching Classes</h3>
               <p>
                 <ul>
-                  <li>III- X Maths</li>
-                  <li>III-X Science</li>
-                  <li>III- XII English Grammar</li>
+                  <li>XI-XII Special Comprehensive Programs</li>
+                  <li>III- XII Grammar Classes</li>
                 </ul>
               </p>
+            </Col>
+            <Col md="12" style={{ textAlign: 'center' }}>
+              <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSeRKQQvWq-oNzyTwUTCIL6AtXQMHnELNZbZ70Ete-F0iZFEVA/viewform?embedded=true"
+                width="640"
+                height="709"
+                frameborder="0"
+                marginheight="0"
+                marginwidth="0"
+              >
+                Loading…
+              </iframe>
             </Col>
           </Row>
         </Container>

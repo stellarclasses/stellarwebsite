@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 // import classnames from "classnames";
 // javascript plugin used to create scrollbars on windows
 // import PerfectScrollbar from "perfect-scrollbar";
@@ -12,13 +12,13 @@ import {
   Container,
   Row,
   Col,
-  UncontrolledTooltip
+  UncontrolledTooltip,
   // UncontrolledCarousel
-} from "reactstrap";
+} from 'reactstrap';
 
 // core components
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar.jsx";
-import Footer from "components/Footer/Footer.jsx";
+import ExamplesNavbar from 'components/Navbars/ExamplesNavbar.jsx';
+import Footer from 'components/Footer/Footer.jsx';
 
 // const carouselItems = [
 //   {
@@ -44,7 +44,7 @@ class ProfilePage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      tabs: 1
+      tabs: 1,
     };
   }
   // componentDidMount() {
@@ -76,19 +76,19 @@ class ProfilePage extends React.Component {
     return (
       <>
         <ExamplesNavbar />
-        <div style={{ height: "100px" }} />
+        <div style={{ height: '100px' }} />
 
         <div className="wrapper">
-          <div className="page-header" style={{ minHeight: "70vh" }}>
+          <div className="page-header" style={{ minHeight: '70vh' }}>
             <img
               alt="..."
               className="dots"
-              src={require("assets/img/dots.png")}
+              src={require('assets/img/dots.png')}
             />
             <img
               alt="..."
               className="path"
-              src={require("assets/img/path4.png")}
+              src={require('assets/img/path4.png')}
             />
             <Container className="align-items-center">
               <Row>
@@ -145,28 +145,6 @@ class ProfilePage extends React.Component {
                     </CardFooter>
                   </Card>
                 </Col>
-                <Col className="ml-auto mr-auto" lg="4" md="6">
-                  <Card className="card-coin card-plain">
-                    <CardHeader>
-                      {/* <img
-                        alt="..."
-                        className="img-center img-fluid rounded-circle"
-                        src={require("assets/img/abc.png")}
-                      /> */}
-                      <h4 className="title">Meenakshi Arora</h4>
-                    </CardHeader>
-                    <CardBody>
-                      M.Phil, M.Sc (Mathematics), B.Sc (hons)and B.Ed.
-                      <br />
-                      She has an extensive experience of more than two decades
-                      teaching Maths and Science.
-                    </CardBody>
-                    <CardFooter>
-                      <i class="fa fa-phone" aria-hidden="true" />
-                      <a href="tel:09899969644"> &nbsp; Call 09899969644</a>
-                    </CardFooter>
-                  </Card>
-                </Col>
               </Row>
             </Container>
           </div>
@@ -189,8 +167,8 @@ class ProfilePage extends React.Component {
                 </Col>
                 <Col md="5">
                   <h1 className="profile-title text-left">
-                    {" "}
-                    &nbsp;&nbsp;Location{" "}
+                    {' '}
+                    &nbsp;&nbsp;Location{' '}
                   </h1>
                   <h5 className="text-on-back">02</h5>
                   <p className="profile-description text-left">
