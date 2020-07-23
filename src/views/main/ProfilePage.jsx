@@ -96,10 +96,14 @@ class ProfilePage extends React.Component {
                   <h1 className="profile-title text-left">About Us</h1>
                   <h5 className="text-on-back">01</h5>
                   <p className="profile-description">
-                    Stellar is an English Speaking School for all age groups. We
-                    also offer crash courses and coaching classes for
-                    Mathematics and Science to make students confident and
-                    effulgent in academics.
+                    Stellar is an English Speaking and Personality Development
+                    School for all age groups. We offer Personality Development
+                    Classes, Grammar Classes, Literature Classes (for grade IX
+                    toXII) and Special Comprehensive Programs for grade XI& XII.
+                    English is an inevitable language which is impacting each
+                    and every field of the world. No matter what career you
+                    choose, learning English is a valuable skill. It will
+                    definitely make you more versatile and well- rounded person.
                   </p>
                   <div className="btn-wrapper profile pt-3">
                     <Button
@@ -136,7 +140,7 @@ class ProfilePage extends React.Component {
                       Ph.D, M.Phil (English), M.A (English), M.Ed, B.A(hons)and
                       B.Ed.
                       <br />
-                      She has a vast experience of 18 years in various renowned
+                      She has a vast experience of 20 years in various renowned
                       institutions teaching English to students.
                     </CardBody>
                     <CardFooter>
