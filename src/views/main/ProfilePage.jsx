@@ -96,15 +96,7 @@ class ProfilePage extends React.Component {
                   <h1 className="profile-title text-left">About Us</h1>
                   <h5 className="text-on-back">01</h5>
                   <p className="profile-description">
-                    Stellar is an English Speaking and Personality Development
-                    School for all age groups. We offer Personality Development
-                    Classes, Grammar Classes, Literature Classes (for grade IX
-                    toXII) and Special Comprehensive Programs for grade XI& XII.
-                    English is an inevitable language which is impacting each
-                    and every field of the world. No matter what career you
-                    choose, learning English is a valuable skill. It will
-                    definitely make you more versatile and well- rounded person.
-                  </p>
+	    Stellar offers English speaking and personality development classes, where we foster an environment of growth and self-improvement. Through interactive sessions and engaging activities, students enhance their communication skills, build confidence, and refine their presentation abilities. Our grammar classes ensure a strong foundation in English, covering topics from tenses to punctuation, making language proficiency attainable. By combining these two aspects, we empower students to express themselves effectively, with impeccable grammar, while developing their overall personality. Our holistic approach is designed to boost self-assured communication, instil poise, and equip individuals with the tools they need to succeed in a diverse, interconnected world, setting them on the path to personal and professional excellence.</p>
                   <div className="btn-wrapper profile pt-3">
                     <Button
                       className="btn-icon btn-round"
@@ -140,7 +132,7 @@ class ProfilePage extends React.Component {
                       Ph.D, M.Phil (English), M.A (English), M.Ed, B.A(hons)and
                       B.Ed.
                       <br />
-                      She has a vast experience of 20 years in various renowned
+                      She has a vast experience of 24 years in various renowned
                       institutions teaching English to students.
                     </CardBody>
                     <CardFooter>

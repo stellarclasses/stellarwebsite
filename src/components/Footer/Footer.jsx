@@ -80,7 +80,7 @@ class Footer extends React.Component {
                 <br />
                 Haryana,121001
                 <br />
-                Call us @ : 9899969644, 9650088055
+                Call us @  9650088055
               </h6>
             </Col>
           </Row>
